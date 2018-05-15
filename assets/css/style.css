@@ -172,6 +172,20 @@ input[type=submit]:hover {
       width: 45%;
     }
 
+    #my_name {
+      text-align: center;
+      background-color: #4aaaa5;
+      color: white;
+      float: left;
+      height: 70px;
+      width: 180px;
+      line-height: 70px;
+    }
+
+    .nav {
+      float: right;
+    }
+
 
 }
 
