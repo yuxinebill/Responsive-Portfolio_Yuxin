@@ -137,28 +137,11 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #4a909b;
 }
+    .main_box img {
+      width: 100%;
+    }
 
-.portfolio_holder {
-  width: 350px;
-  height: 350px;
-  float: left;
-  margin: 0 20px 20px 0;
-}
 
-.portfolio_holder span {
-  width: 350px;
-  height: 40px;
-  background-color: #4aaaa5;
-  color: white;
-  position: absolute;
-  margin-top: 290px;
-  text-align: center;
-  line-height: 40px;
-}
-
-.portfolio_holder p:hover {
-  background-color: #4a909b;
-}
 
 @media only screen and (max-width: 640px) {
 
@@ -180,17 +163,29 @@ input[type=submit]:hover {
       width: 100%;
     }
 
-    .portfolio_holder {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    #my_name {
       width: 100%;
-      height: auto;
-      margin: auto;
       clear: right;
     }
 
-    .portfolio_holder span {
-      width: 30%;
-      margin-top: 60%;  
+    .nav {
+      width: 100%;
+      float: left;
+      text-align: center;
+      border-bottom: solid 1px #dddddd;
+      background-color: white;
     }
+
+    .main_box img {
+      width: 45%;
+    }
+
 
 }
 
